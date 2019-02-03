@@ -22,7 +22,7 @@ uBlock Origin<br>
 
 ## Regarding this Midori port
 
-The majority of this code is shared with [upstream](https://github.com/gorhill/uBlock) and [Safari](https://github.com/el1t/uBlock-Safari. Much of the platform shim from the original uBlock Safari version is still being used.
+The majority of this code is shared with [upstream](https://github.com/gorhill/uBlock) and [Safari](https://github.com/el1t/uBlock-Safari). Much of the platform shim from the original uBlock Safari version is still being used.
 
 * [Installation](#installation)
 * [Building](#building)
