@@ -1,4 +1,4 @@
-[![Build](https://travis-ci.org/el1t/uBlock-Safari.svg?branch=safari)](https://travis-ci.org/el1t/uBlock-Safari)
+
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt)
 
 ***
@@ -10,8 +10,7 @@
       width="38">
 </sub>
 uBlock Origin<br>
-<small>for Safari</small>
-</h1>
+<small>for Midori</small>
 <p align="center">
 <sup> <!-- Pronounciation -->
       pronounced <i>you-block origin</i> (<code>/ˈjuːˌblɒk/</code>) — <i>you</i> decide what enters your browser.
@@ -21,10 +20,9 @@ uBlock Origin<br>
 
 **An efficient blocker add-on for various browsers. Fast, potent, and lean.**
 
-## Regarding this Safari port
+## Regarding this Midori port
 
-The majority of this code is shared with [upstream](https://github.com/gorhill/uBlock). Platform specific portions are under development.
-Much of the platform shim from the original uBlock Safari version is still being used.
+The majority of this code is shared with [upstream](https://github.com/gorhill/uBlock) and [Safari](https://github.com/el1t/uBlock-Safari. Much of the platform shim from the original uBlock Safari version is still being used.
 
 * [Installation](#installation)
 * [Building](#building)
@@ -35,8 +33,8 @@ Much of the platform shim from the original uBlock Safari version is still being
 
 ## Installation
 
-The preferred method of installation is to install from the [extension gallery](https://safari-extensions.apple.com/details/?id=com.el1t.uBlock-3NU33NW2M3).
-This allows the extension to update automatically, and the submissions are approved by Apple.
+The preferred method of installation is to install [a release](https://github.com/TylerWolfDev/uBlock-Midori/releases).
+You can alternatively build it yourself.
 
 To learn more about installation and updates, visit the [wiki](https://github.com/el1t/uBlock-Safari/wiki/Installation-and-Updates).
 
@@ -53,7 +51,7 @@ To benefit from uBlock Origin's higher efficiency, it's advised that you don't u
 To build and load an unpacked extension for development:
 
 1. **Clone** `uBlock-Safari` and [`uAssets`](https://github.com/uBlockOrigin/uAssets) into the same parent directory
-1. **Build** by running `./tools/make-safari.sh` in `uBlock-Safari`'s directory
+1. **Build** by running `./tools/make-midori.sh` in `uBlock-Midori`'s directory
 1. **Install** the unpacked extension through Safari's Extension Builder
     1. In Safari, load the Extension Builder (Develop > Show Extension Builder)
     1. Click the `+` button in the bottom left corner and "Add Extension"
@@ -81,8 +79,8 @@ echo 'Output is in dist/build/uBlock0.safariextension'
 
 To build and sign for release (certificates required):
 
-1. **Clone** `uBlock-Safari` and [`uAssets`](https://github.com/uBlockOrigin/uAssets) into the same parent directory
-1. **Build** by running `./tools/make-safari.sh all` in `uBlock-Safari`'s directory
+1. **Clone** `uBlock-Midori` and [`uAssets`](https://github.com/uBlockOrigin/uAssets) into the same parent directory
+1. **Build** by running `./tools/make-midori.sh all` in `uBlock-Midori`'s directory
     1. Requires `xar-mackyle`, which will be built if not found
 
 ## Release History
